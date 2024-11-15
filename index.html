@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Коктейлі Онлайн</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Коктейлі Онлайн</h1>
+    <nav>
+        <a href="#main">Головна</a>
+        <a href="#catalog">Каталог</a>
+        <a href="#search">Пошук за інгредієнтами</a>
+        <a href="#contact">Контакти</a>
+    </nav>
+</header>
+
+<section id="main">
+    <h2>Вітаємо на сайті про найкращі коктейлі</h2>
+    <p>Знайдіть свій улюблений рецепт коктейлю та насолоджуйтесь чудовими смаками.</p>
+
+    <h3>Історії про коктейлі та бари</h3>
+    <p>Існує безліч історій, пов'язаних з коктейлями та барними традиціями. Один з найбільш знаменитих коктейлів - <strong>Мохіто</strong> - був популяризований кубинським письменником Ернестом Хемінгуеєм. Легенда свідчить, що він часто пив цей коктейль у барі "La Bodeguita del Medio" в Гавані.</p>
+
+    <p>Бармен, як справжні майстри свого ремесла, не лише змішують напої, а й творять справжні шедеври, які можуть стати частиною історії барної культури.</p>
+</section>
+
+<section id="catalog">
+    <h2>Популярні коктейлі</h2>
+    <div class="cocktail-grid">
+        <div class="cocktail-card">
+            <a href="mojito.html">
+                <img src="images/mojito.jpg" alt="Мохіто" width="150">
+                <h3>Мохіто</h3>
+            </a>
+        </div>
+        <div class="cocktail-card">
+            <a href="martini.html">
+                <img src="images/martini.webp" alt="Мартіні" width="150">
+                <h3>Мартіні</h3>
+            </a>
+        </div>
+        <div class="cocktail-card">
+            <a href="pina_colada.html">
+                <img src="images/PinaColada.jpeg" alt="Піна Колада" width="150">
+                <h3>Піна Колада</h3>
+            </a>
+        </div>
+        <div class="cocktail-card">
+            <a href="margarita.html">
+                <img src="images/Margarita.jpg" alt="Марагарита" width="150">
+                <h3>Марагарита</h3>
+            </a>
+        </div>
+        <div class="cocktail-card">
+            <a href="aperol_spritz.html">
+                <img src="images/spritz.jpg" alt="Апероль Шприц" width="150">
+                <h3>Апероль Шприц</h3>
+            </a>
+        </div>
+        <div class="cocktail-card">
+            <a href="gin_tonic.html">
+                <img src="images/gin.jpg" alt="Джин Тонік" width="150">
+                <h3>Джин Тонік</h3>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="search">
+    <h2>Пошук за інгредієнтами</h2>
+    <input type="text" id="ingredient" placeholder="Введіть інгредієнт">
+    <button onclick="searchCocktails()">Знайти коктейль</button>
+    <div id="search-result"></div>
+</section>
+
+<footer id="contact">
+    <h2>Контакти</h2>
+    <p>Залиште ваші відгуки та пропозиції:</p>
+    <form>
+        <input type="text" placeholder="Ваше ім'я" required>
+        <input type="email" placeholder="Ваш Email" required>
+        <textarea placeholder="Ваше повідомлення" required></textarea>
+        <button type="submit">Надіслати</button>
+    </form>
+    <p>&copy; 2024 Коктейлі Онлайн. Всі права захищені.</p>
+</footer>
+
+<!-- Підключення скрипта -->
+<script src="script.js"></script>
+</body>
+</html>

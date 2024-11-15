@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000000; /* Чорний фон для всього тіла */
+    color: #2F4F4F; /* Темно-сірий колір тексту */
+}
+
+header {
+    background-color: #000000; /* Чорний фон для хедера */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff; /* Білий колір тексту */
+}
+
+nav a {
+    color: #fff; /* Білий колір для посилань */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+section {
+    background-color: #fff; /* Білий фон для секцій */
+    padding: 40px 20px;
+    text-align: center;
+    margin: 20px; /* Відступи для боків */
+    border-radius: 10px; /* Округлення кутів */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.cocktail-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cocktail-card {
+    background-color: #fff; /* Білий фон для карток коктейлів */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.cocktail-card:hover {
+    transform: scale(1.05);
+}
+
+.cocktail-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cocktail-card h3 {
+    color: #2F4F4F; /* Темно-сірий колір для назви коктейлю */
+}
+
+.cocktail-card p {
+    color: #2F4F4F; /* Темно-сірий колір для тексту під картками */
+    font-size: 14px; /* Розмір шрифта для опису */
+    margin-top: 10px;
+}
+
+input, button, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #A9A9A9;
+}
+
+button {
+    background-color: #000000; /* Чорний фон для кнопок */
+    color: #fff; /* Білий колір тексту кнопок */
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2F4F4F; /* Темно-сірий колір при наведенні */
+}
+
+footer {
+    background-color: #000000; /* Чорний фон для футера */
+    color: #A9A9A9; /* Світло-сірий колір тексту футера */
+    padding: 20px;
+    text-align: center;
+}
+#search-result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cocktail-result {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.cocktail-result:last-child {
+    border-bottom: none;
+}
+
+.cocktail-result h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.cocktail-result p {
+    margin-top: 5px;
+    font-size: 0.9em;
+}
